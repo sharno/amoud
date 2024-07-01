@@ -119,7 +119,7 @@ impl<'a> Lexer<'a> {
         }
 
         match identifier.as_str() {
-            "متغير" => Token::VariableKeyword,
+            "عرف" => Token::VariableKeyword,
             "لو" => Token::IfKeyword,
             "ف" => Token::ThenKeyword,
             "وإلا" => Token::ElseKeyword,
